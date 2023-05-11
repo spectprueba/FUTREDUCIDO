@@ -1,7 +1,7 @@
 /*Some fonts*/
 @font-face {
 	font-family: 'Gotham Bold';
-	src: url(/fonts/fonts/Gotham-Font/GothamBold.ttf) format('truetype');
+	src: url(../fonts/fonts/Gotham-Font/GothamBold.ttf) format('truetype');
 }
 
 /*Colors*/
