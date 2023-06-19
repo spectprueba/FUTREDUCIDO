@@ -1,0 +1,12 @@
+/*Some fonts*/
+@font-face {
+	font-family: 'Gotham Bold';
+	src: url(../fonts/fonts/Gotham-Font/GothamBold.ttf) format('truetype');
+}
+
+/*Colors*/
+:root{
+    --verde:#64fe50;
+    --negro:#1d2027;
+    --azul: #051a6b;
+}
