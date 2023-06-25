@@ -1,0 +1,11 @@
+/*Fonts of the page*/
+
+@font-face {
+	font-family: 'Gotham Medium';
+	src: url(../fonts/fonts/Gotham-Font/GothamMedium.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Gotham Bold';
+	src: url(../fonts/fonts/Gotham-Font/GothamBold.ttf) format('truetype');
+}
