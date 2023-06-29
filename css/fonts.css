@@ -4,3 +4,8 @@
 	font-family:Gotham-Medium;
 	src: url(../fonts/Gotham-font/GothamMedium.ttf) format('truetype');
 }
+
+@font-face {
+	font-family:OpenSans-Medium;
+	src: url(../fonts/OpenSans-font/OpenSans-Medium.ttf) format('truetype');
+}
