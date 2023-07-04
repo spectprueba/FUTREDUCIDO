@@ -29,4 +29,4 @@ function Prev(){
 
 setInterval(function(){
     Next();
-}, 10000);
+}, 16000);
