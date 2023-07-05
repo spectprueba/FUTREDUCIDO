@@ -6,6 +6,11 @@
 }
 
 @font-face {
+	font-family:Gotham-Bold;
+	src: url(../fonts/Gotham-font/GothamBold.ttf) format('truetype');
+}
+
+@font-face {
 	font-family:OpenSans-Medium;
 	src: url(../fonts/OpenSans-font/OpenSans-Medium.ttf) format('truetype');
 }
