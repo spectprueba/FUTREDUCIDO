@@ -4,11 +4,13 @@
     --negro:#1d2027;
     --azul: #051a6b;
 }
+/*Generic code*/
 body{
+    display: flex;
+    flex-direction: column;
+    min-height: 140vh;
     margin: 0;
     position: relative;
-    padding-bottom: 3em;
-    min-height: 140vh;
     /*background-image: url('../img/wallpaper.jpg');*/
     background-color: #F4F6F6;
 }
@@ -17,6 +19,15 @@ body{
     display: block;
     margin: auto;
 }
+.center-text{
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+.OpenSans-Bold{
+    font-family: OpenSans-Bold !important;
+}
+
 
 /*---------------------------------------------------------------------------*/
 /*-----------------------------------INDEX-----------------------------------*/
@@ -164,10 +175,12 @@ a:hover {
         .sector-white{
             background-color: #ffffff;
             color: #000000;
+            padding: 10em 0 10em 0;
         }
         .sector-black{
             background-color: var(--negro);
             color: #ffffff;
+            padding: 10em 0 10em 0;
         }
     /*Acerca de nosotros*/
         .about-us{
@@ -179,7 +192,7 @@ a:hover {
 
 /*-----------------------------Footer code-----------------------------*/
 .footer-container{
-    position: absolute;
+    margin-top: auto;
     bottom: 0;
     overflow: hidden;
     background-color: #6e7567;

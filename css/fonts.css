@@ -1,5 +1,8 @@
 /*Fonts of the page*/
 
+/*-----------------------------------------------------------------------------------------------*/
+/*--------------------------------------GOTHAM---------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------*/
 @font-face {
 	font-family:Gotham-Medium;
 	src: url(../fonts/Gotham-font/GothamMedium.ttf) format('truetype');
@@ -10,7 +13,15 @@
 	src: url(../fonts/Gotham-font/GothamBold.ttf) format('truetype');
 }
 
+/*-----------------------------------------------------------------------------------------------*/
+/*--------------------------------------OpenSans-------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------*/
 @font-face {
 	font-family:OpenSans-Medium;
 	src: url(../fonts/OpenSans-font/OpenSans-Medium.ttf) format('truetype');
+}
+
+@font-face {
+	font-family:OpenSans-Bold;
+	src: url(../fonts/OpenSans-font/OpenSans-Bold.ttf) format('truetype');
 }
