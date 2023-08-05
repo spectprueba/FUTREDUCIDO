@@ -184,7 +184,27 @@ a:hover {
         }
     /*Acerca de nosotros*/
         .about-us{
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            align-items: center;
+        }
+        .about-us h2{
+            text-transform: uppercase;
+            font-size: 100px;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-image: url(../img/About_us_content_img.jpeg);
+            text-align: center;
+            margin: 0 20%;
 
+        }
+        .about-us-content{
+            font-family:Gotham-Medium;
+            font-size: 18px;
+            text-align: justify;
+            margin: 0 10%;
+            line-height : 25px;
         }
 
   
