@@ -193,7 +193,7 @@ a:hover {
             text-transform: uppercase;
             font-size: 100px;
             -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+            -webkit-text-fill-color: rgba(255, 255, 255, 0.521);
             background-image: url(../img/About_us_content_img.jpeg);
             text-align: center;
             margin: 0 20%;
@@ -205,6 +205,19 @@ a:hover {
             text-align: justify;
             margin: 0 10%;
             line-height : 25px;
+        }
+    /*Fechas*/
+        .fechas-content{
+            text-align: center;
+        }
+    /*Galeria*/
+        .galeria_container{
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+
+        }
+        .galeria_container img{
+            width: 100%;
         }
 
   
