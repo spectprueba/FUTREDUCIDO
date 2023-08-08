@@ -61,6 +61,20 @@ body{
 .OpenSans-Bold{
     font-family: OpenSans-Bold !important;
 }
+.button-white{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #64fe50;
+    border-radius: 5px;
+    padding: 10px;
+    transition: 200ms ease-in-out;
+}.button-white:hover{
+    color: #64fe50;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+    transition: 200ms ease-in-out;
+}
 
 .loader {
     display: flex;
@@ -278,7 +292,65 @@ a:hover {
         }
     /*Acerca de nosotros*/
         .about-us{
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            align-items: center;
+        }
+        .about-us h2{
+            text-transform: uppercase;
+            font-size: 75px;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: rgba(255, 255, 255, 0.521);
+            background-image: url(../img/About_us_content_img.jpeg);
+            text-align: center;
+            margin: 0 20%;
 
+        }
+        .about-us-content{
+            font-family:Gotham-Medium;
+            font-size: 18px;
+            text-align: justify;
+            margin: 0 10%;
+            line-height : 25px;
+        }
+    /*Fechas*/
+        .fechas-content{
+            text-align: center;
+        }
+    /*Galeria*/
+        .galeria_container{
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            margin-bottom: 40px;
+        }
+
+        .galeria h1{
+            font-size: 30px;
+        }
+        .galeria h2{
+            font-size: 40px;
+        }
+        .galeria hr{
+            border-color: #64fe50;
+            width: 40%;
+        }
+        .galeria_container img{
+            width: 100%;
+        }
+    /*Equipo*/
+        .equipo hr{
+            border-color: #000000;
+            width: 40%;
+        }
+        .container_equipo{
+            display: grid;
+            grid-template-columns: repeat(3,1fr)
+        }
+        .container_equipo img{
+            width: 70%;
+            display: block;
+            margin: auto;
         }
 
   
