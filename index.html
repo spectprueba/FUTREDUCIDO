@@ -18,8 +18,13 @@
 	</head>
 
     <!--BODY-->
+	
     <body>
-		<div class="general-container">
+		<div id="contenedor_carga">
+			<div id="carga"></div>
+		</div>
+		<div class="general-container hidden-content">
+			
 			<!------------------------------------------------------------------------->
 			<!---------------------------Start of the header--------------------------->
 			<!------------------------------------------------------------------------->
@@ -141,5 +146,20 @@
 
 			<script src="./js/animations.js"></script>
 		</div>
+		<script>
+		window.onload = function(){
+			var contenedor = document.getElementById('contenedor_carga');
+		var contentContainer = document.querySelector('.general-container');
+		var body = document.querySelector('body');
+		setTimeout(function() {
+			contenedor.style.visibility = 'hidden';
+			contenedor.style.opacity = '0';
+			contentContainer.classList.remove('hidden-content');
+			body.style.overflow = 'auto';
+		}, 3000);
+		body.style.overflow = 'hidden';
+		}
+		</script>
 	</body>
+	
 </html>
