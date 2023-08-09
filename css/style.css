@@ -301,7 +301,7 @@ a:hover {
         }
         .about-us h2{
             text-transform: uppercase;
-            font-size: 75px;
+            font-size: 60px;
             -webkit-background-clip: text;
             -webkit-text-fill-color: rgba(255, 255, 255, 0.521);
             background-image: url(../img/About_us_content_img.jpeg);
@@ -311,7 +311,7 @@ a:hover {
         }
         .about-us-content{
             font-family:Gotham-Medium;
-            font-size: 18px;
+            font-size: 15px;
             text-align: justify;
             margin: 0 10%;
             line-height : 25px;
