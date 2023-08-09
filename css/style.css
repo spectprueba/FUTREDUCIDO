@@ -9,7 +9,8 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 140vh;
-    margin: 0;
+    max-width: 100%;
+    margin: 0 auto;
     position: relative;
     /*background-image: url('../img/wallpaper.jpg');*/
     background-color: #F4F6F6;
@@ -143,7 +144,7 @@ body{
 /*Header code*/
 .general-container{
     width: 100%;
-    max-width: 2000px;
+    max-width: 100%;
 }
 
 .logo{
@@ -234,6 +235,7 @@ a:hover {
 /*-----------------------------Body code-----------------------------*/
     /*Welcome*/
         .welcome-message{
+            max-width: 100%;
             width: 100%;
             position: absolute;
             z-index: 19;
