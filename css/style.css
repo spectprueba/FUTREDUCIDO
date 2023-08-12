@@ -441,25 +441,88 @@ a:hover {
 
 /*---------------------------------900 WIDTH-------------------------*/
 @media screen and (max-width: 900px){
-    
+    .menu a{
+        font-size: 14px;
+    }
+    .about-us h2{
+        font-size: 50px;
+    }
+    .about-us-content{
+        font-size: 13px;
+    }
+    .fechas-content{
+        text-align: center;
+        font-size: 15px;
+    }
 }
 
 /*---------------------------------815 WIDTH-------------------------*/
 @media screen and (max-width: 815px){
-    
+    .menu a{
+        font-size: 13px;
+    }
+    .about-us h2{
+        font-size: 48px;
+    }
+    .about-us-content{
+        font-size: 12px;
+    }
+    .fechas-content{
+        text-align: center;
+        font-size: 14px;
+    }
+    .galeria h1{
+        font-size: 28px;
+    }
+    .galeria h2{
+        font-size: 38px;
+    }
 }
 
 /*---------------------------------720 WIDTH-------------------------*/
 @media screen and (max-width: 720px){
-    
+    .welcome-message h1{
+        font-size: 6em;
+    }
+    .menu a{
+        font-size: 12.5px;
+    }
+    .about-us h2{
+        font-size: 40px;
+        
+    }
 }
-
 /*---------------------------------615 WIDTH-------------------------*/
 @media screen and (max-width: 615px){
-    
+    .welcome-message h1{
+        font-size: 5em;
+    }
+    .menu a{
+        font-size: 12px;
+    }
+    .about-us h2{
+        font-size: 36px;  
+    } 
 }
 
 /*---------------------------------419 WIDTH-------------------------*/
 @media screen and (max-width: 419px){
-    
+    .welcome-message h1{
+        font-size: 3em;
+    }
+    .welcome-message p{
+        font-size: 1em;
+    }
+    .about-us h2{
+        font-size: 25px;  
+    } 
+    .galeria h1{
+        font-size: 20px;
+    }
+    .galeria h2{
+        font-size: 30px;
+    }
+    .footer-col p{
+        font-size: 12px;
+    }
 }
