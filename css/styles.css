@@ -293,12 +293,15 @@ a:hover {
         .sector-white{
             background-color: #ffffff;
             color: #000000;
-            padding: 10em 0 10em 0;
+            padding: 40px 0 40px 0;
         }
         .sector-black{
             background-color: var(--negro);
             color: #ffffff;
-            padding: 10em 0 10em 0;
+            padding: 40px 0 40px 0;
+        }
+        .last-item{
+            padding: 10em 0 0 0 !important;
         }
     /*Acerca de nosotros*/
         .about-us{
