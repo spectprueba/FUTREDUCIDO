@@ -25,3 +25,21 @@
 	font-family:OpenSans-Bold;
 	src: url(../fonts/OpenSans-font/OpenSans-Bold.ttf) format('truetype');
 }
+
+/*-----------------------------------------------------------------------------------------------*/
+/*--------------------------------------MONTSERRAT---------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------*/
+@font-face {
+	font-family:Montserrat-Medium;
+	src: url(../fonts/Montserrat-font/Montserrat-Medium.ttf) format('truetype');
+}
+
+@font-face {
+	font-family:Montserrat-Light;
+	src: url(../fonts/Montserrat-font/Montserrat-Light.ttf) format('truetype');
+}
+
+@font-face {
+	font-family:Montserrat-Bold;
+	src: url(../fonts/Montserrat-font/Montserrat-Bold.ttf) format('truetype');
+}
