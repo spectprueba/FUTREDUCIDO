@@ -305,6 +305,7 @@ a:hover {
             display: grid;
             grid-template-columns: 1fr 1fr;
             align-items: center;
+            padding: 10% 0%;
         }
         .about-us h2{
             text-transform: uppercase;
