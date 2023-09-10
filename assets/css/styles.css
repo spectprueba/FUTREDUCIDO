@@ -414,6 +414,31 @@ a:hover {
             width: 70%;
         }
 
+    /*Partidos*/
+        .partidos-container {
+            width: 100%;
+            max-width: 1200px;
+            margin: auto;
+            margin-top: 130px;
+        }
+        .partido{
+            width: 100%;
+            align-items: center;
+            background-color: #000000;
+            color: #ffffff;
+            margin: 40px auto;
+            padding: 5% 0 5% 0;
+        }.partido p{
+            display: block;
+            margin: auto;
+            width: 30%;
+            text-align: justify;
+        }
+        .video{
+            display: block;
+            margin: 10px auto 10px auto;
+        }
+
   
 /*-----------------------------End Body code-----------------------------*/
 
@@ -476,24 +501,3 @@ a:hover {
     border-left: 2px solid white;
 }
 /*-----------------------------Footer code-----------------------------*/
-.partidos-container {
-    font-family: OpenSans-Medium;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    width: 100%;
-
-}
-
-.video {
-    margin-top: 40%;
-    margin-left: 4%;
-    margin-bottom: 20%;
-    width: 100%;
-    text-align: center;
-}
-.partidos-col {
-    width: 100%;
-    display: block;
-    margin: auto;
-    text-align: center;
-}
