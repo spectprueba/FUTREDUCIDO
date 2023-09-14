@@ -46,7 +46,6 @@ html{
 body{
     display: flex;
     flex-direction: column;
-    min-height: 80vh;
     max-width: 100%;
     margin: 0 auto;
     position: relative;
@@ -63,6 +62,12 @@ body{
     text-align: center;
     display: block;
     margin: auto;
+}
+
+.center-absolute{
+    display: block;
+    margin: 40vh auto auto auto;
+    text-align: center;
 }
 
 
@@ -177,6 +182,7 @@ body{
     width: 100%;
     max-width: 100%;
     background-image: url('/assets/img/background_img.jpg');
+    min-height: 80vh;
 }
 
 .logo{
@@ -190,29 +196,21 @@ body{
     max-height: 115px;
     position: fixed;
     overflow: hidden;
-    z-index: 20;
     top: 0;
     left: 0;
     background-color: var(--azul);
 }
 
-.header.scroll-down{
-    background-color: #051a6b;
-    color: #ffffff;
-}
-.menu.scroll-down a{
-    color: #ffffff;
-}
-
 .container-header{
     width: 100%;
-    max-width: 1200px;
+    max-width: 1920px;
     margin: auto;
 }
 
 .logo{
     width: 200px;
     float: left;
+    margin-left: 20%;
 }
 
 .menu{
@@ -363,6 +361,48 @@ a:hover {
         .fechas-content{
             text-align: center;
         }
+
+        .match-container{
+            display: grid;
+            margin: 5% 2% auto 2%;
+            grid-template-columns: repeat(7, 1fr);
+            padding: 1% 0 1% 0;
+        }
+        .team_a{
+            width: 200px;
+            grid-column: 3/4;
+            display: block;
+            margin: auto;
+        }
+        .match-container p{
+            display: block;
+            margin: auto;
+            text-align: center;
+            grid-column: 4/5;
+            font-size: 40px;
+        }
+        .team_b{
+            width: 200px;
+            grid-column: 5/6;
+            display: block;
+            margin: auto;
+        }
+
+        .match_sector_a{
+            background-image: url('/assets/img/Fechas_content.jpg');
+            color: #ffffff;
+            background-position: -3cm 42cm;
+            background-size: 110%;
+        }
+        
+        .match_sector_b{
+            background-image: url('/assets/img/pexels-tembela-bohle-1884580.jpg');
+            color: #000000;
+            background-position: -1cm 75cm;
+            background-size: 108%;
+        }
+
+
     /*Galeria*/
         .galeria{
             width: 100%;
@@ -444,7 +484,6 @@ a:hover {
 
 /*-----------------------------Footer code-----------------------------*/
 .footer-container{
-    margin-top: auto;
     bottom: 0;
     overflow: hidden;
     background-color: #000000;
