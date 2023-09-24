@@ -61,7 +61,7 @@
 
 					<nav class="menu">
 						<a href="#about-us"> Acerca de nosotros</a>
-						<a href="#fechas"> Fechas</a>
+						<a href="#partidos"> Partidos</a>
                         <a href="./proximamente.html"> En vivo </a>
 						<a href="#galeria"> Galeria</a>
 						<a href="#equipo"> Equipo</a>
@@ -80,8 +80,8 @@
 			<!---------------------------Start of the body----------------------------->
 			<!------------------------------------------------------------------------->
             <div class="welcome-message">
-                <h1 class="Gotham-Bold"> Bienvenido </h1>
-                <p class="Montserrat-Medium"> FutReducido te da la bienvenida a su sitio web </p>
+                <h1 class="Bebas-Neue-Bold"> Bienvenido </h1>
+                <p class="Montserrat-Light"> FutReducido te da la bienvenida a su sitio web </p>
             </div>
 
 			<div class="container-slider">
@@ -107,7 +107,7 @@
 			<!-- EL RESTO DE LA PAGINA-->
 			<div class="about-us sector-black" id="about-us">
 
-                <h1 class="center-text OpenSans-Bold">Acerca de nosotros</h1>
+                <h1 class="center-text Bebas-Neue-Bold">Acerca de nosotros</h1>
 
                 <div class="about-us-content">
                     <h2 class="Montserrat-Bold" >Historia breve Fut-Reducido</h2>
@@ -116,32 +116,87 @@
                         Al mismo tiempo hemos internacionalizado nuestra representación al participar en distintos eventos con selección y equipos de nuestra liga, en eventos invitacionales en países como Costa Rica, El Salvador, Honduras, Colombia, Perú y Ecuador.
                     </p>
                 </div>
+                <div class="about-us-content">
+                    <h2 class="Montserrat-Bold" >¿Qué hacemos?</h2>
+                    <p class="Montserrat-Light">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis itaque magnam eos nam molestias architecto adipisci, distinctio totam quisquam repudiandae dignissimos non sapiente, quas odit facere ea minima, hic inventore?
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis itaque magnam eos nam molestias architecto adipisci, distinctio totam quisquam repudiandae dignissimos non sapiente, quas odit facere ea minima, hic inventore?
+                    </p>
+                </div>
             </div>
 
-			<div class="fechas sector-white center-text" id="fechas">
-				<h1 class="center-text OpenSans-Bold">Fechas</h1>
+			<div class="partidos sector-white center-text" id="partidos">
+				<h1 class="center-text Bebas-Neue-Bold">Partidos</h1>
 
-                <div class="fechas-content center-text OpenSans-Medium">
-                    <h2 class="OpenSans-Bold"> Próximas jornadas FutReducido </h2>
+                <hr>
 
-                    <div class="match-container match_sector_a">
+                <div class="tabla-container">
+                    <p class="Montserrat-Medium"> Tabla de posiciones </p>
+                    <table class="tabla-posiciones">
+    
+                        <tr class="Encabezado-tabla Gotham-Bold">
+                            <td>Posicion</td>
+                            <td>Equipo</td>
+                            <td>PJ</td>
+                            <td>PG</td>
+                            <td>PE</td>
+                            <td>PP</td>
+                        </tr>
+    
+                        <tr class="Gotham-Medium">
+                            <td>1</td>
+                            <td> <span class="equipo-tabla"> <img src="/assets/img/Team images/Barcelona.png" alt=""> <p>BAR</p> </span> </td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                        </tr>
+                        <tr class="Gotham-Medium">
+                            <td>2</td>
+                            <td> <span class="equipo-tabla"> <img src="/assets/img/Team images/equipo1.png" alt=""> <p>FTS</p> </span> </td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                        </tr>
+                        <tr class="Gotham-Medium">
+                            <td>3</td>
+                            <td> <span class="equipo-tabla"> <img src="/assets/img/Team images/equipo2.png" alt=""> <p>MIT</p> </span> </td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                        </tr>
+                        <tr class="Gotham-Medium">
+                            <td>4</td>
+                            <td> <span class="equipo-tabla"> <img src="/assets/img/Team images/Madrid.png" alt=""> <p>MAD</p> </span> </td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                        </tr>
+                    </table>
+                </div>
 
+                <div class="fechas-container center-text OpenSans-Medium">
+                    <p class="Montserrat-Medium"> Próximas jornadas FutReducido </p>
+
+                    <div class="match-container">
+
+                        <h3 class="Montserrat-Light"> 14 mayo </h3>
                         <img src="./assets/img/Team images/equipo1.png" alt="" class="team_a">
                         <p class="Montserrat-Bold"> VS </p>
                         <img src="./assets/img/Team images/Barcelona.png" alt="" class="team_b">
 
-                        <p> 14 mayo </p>
-
                     </div>
 
-                    <div class="match-container match_sector_b">
+                    <div class="match-container">
 
+                        <h3 class="Montserrat-Light"> 16 mayo </h3>
                         <img src="./assets/img/Team images/Madrid.png" alt="" class="team_a">
                         <p class="Montserrat-Bold"> VS </p>
                         <img src="./assets/img/Team images/equipo2.png" alt="" class="team_b">
 
-                        <p> 14 mayo </p>
-                        
                     </div>
                     
                 </div>
@@ -153,7 +208,7 @@
 			<div class="galeria sector-black" id="galeria">
 
                 <div class="galeria-content center-text OpenSans-Bold">
-                    <h1>Algo de lo que nostros hacemos</h1>
+                    <h1>Galería</h1>
 					
 					<section class="galeria_container">
 						<a href="" class=""> <img src="./assets/img/Galeria 1.jpg" alt=""> </a>

@@ -17,30 +17,28 @@ html{
 
 .OpenSans-Bold{
     font-family: OpenSans-Bold !important;
-}
-
-.OpenSans-Medium{
+}.OpenSans-Medium{
     font-family: OpenSans-Medium !important;
 }
 
 .Gotham-Bold{
     font-family: Gotham-Bold !important;
-}
-
-.Gotham-Medium{
+}.Gotham-Medium{
     font-family: Gotham-Medium !important;
-}    
+}
 
 .Montserrat-Bold{
     font-family: Montserrat-Bold !important;
-}
-
-.Montserrat-Light{
+}.Montserrat-Light{
     font-family: Montserrat-Light !important;
+}.Montserrat-Medium{
+    font-family: Montserrat-Medium !important;
 }
 
-.Montserrat-Medium{
-    font-family: Montserrat-Medium !important;
+.Bebas-Neue-Regular{
+    font-family: Bebas-Neue-Regular !important;
+}.Bebas-Neue-Bold{
+    font-family: Bebas-Neue-Bold !important;
 }
 
 body{
@@ -74,12 +72,12 @@ body{
 .button-center{
     cursor: pointer;
     text-decoration: none;
-    padding: 10px 20px;
-    border-radius: 5px;
+    padding: 20px 20px;
+    border-radius: 50px;
     display: block;
-    margin: 20px auto auto auto;
+    margin: auto;
     text-align: center;
-    width: 10%;
+    width: 15%;
     transition: all 500ms ease;
 }
 
@@ -274,11 +272,13 @@ a:hover {
             margin: 35vh auto auto auto;
             color: #ffffff;
             background-color: #000000;
-            opacity: 0.7;
+            opacity: 0.8;
         }
         .welcome-message h1{
-            font-size: 7em;
+            font-size: 150px;
             text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 0px;
         }
         .welcome-message p{
             font-size: 1.5em;
@@ -329,77 +329,112 @@ a:hover {
         }
         .about-us h1{
             text-transform: uppercase;
-            font-size: 60px;
+            font-size: 100px;
+            letter-spacing: 1px;
             -webkit-background-clip: text;
             -webkit-text-fill-color: rgba(255, 255, 255, 0.521);
             background-image: url(../img/About_us_content_img.jpeg);
             text-align: center;
             margin: 0 20%;
-
+            grid-row: 1/3;
         }
         .about-us-content{
             font-size: 18px;
             text-align: justify;
             margin: 0 10%;
             line-height : 25px;
+            grid-column: 2/3;
         }
-    /*Fechas*/
-        .fechas{
+    /*Partidos*/
+        .partidos{
             width: 100%;
             padding: 10% 0%;
             margin: 50px auto;
         }
-        .fechas h1{
+        .partidos h1{
             text-transform: uppercase;
-            font-size: 60px;
+            font-size: 100px;
+            letter-spacing: 1px;
             -webkit-background-clip: text;
             -webkit-text-fill-color: rgba(75, 75, 75, 0.144);
             background-image: url(../img/Fechas_content.jpg);
             text-align: center;
             margin: 0 20%;
         }
-        .fechas-content{
-            text-align: center;
+
+        .tabla-container{
+            margin: 5% auto;
+        }
+
+        .tabla-posiciones{
+            border: none !important;
+            border-collapse:collapse;
+            width: 80%;
+            margin: auto;
+        }.tabla-posiciones td{
+            padding: 10px;
+            border-bottom: solid 1px rgba(0, 0, 0, 0.068);
+        }.tabla-posiciones img{
+            width: auto;
+            height: auto;
+            max-width: 2em;
+            max-height: 2em;
+        }
+        
+        .Encabezado-tabla{
+            background-color: var(--azul);
+            color: #ffffff;
+            font-size: 20px;
+        }
+
+        .equipo-tabla{
+            display: flex;
+            margin: auto;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .fechas-container{
+            margin: 5% auto;
         }
 
         .match-container{
             display: grid;
-            margin: 5% 2% auto 2%;
+            margin: 0 auto 1% auto;
             grid-template-columns: repeat(7, 1fr);
-            padding: 1% 0 1% 0;
+            background-color: rgba(109, 109, 109, 0.438);
+            width: 40%;
+            border-radius: 2px;
+            color: #ffffff;
+            padding: 1% 0%;
         }
-        .team_a{
-            width: 200px;
-            grid-column: 3/4;
-            display: block;
-            margin: auto;
-        }
+
         .match-container p{
             display: block;
             margin: auto;
             text-align: center;
             grid-column: 4/5;
-            font-size: 40px;
+            font-size: 20px;
+            color: #000000;
+        }.match-container h3{
+            display: block;
+            margin: auto;
+            text-align: center;
+            grid-column: 3/6;
+            font-size: 20px;
+            color: #000000;
         }
-        .team_b{
-            width: 200px;
-            grid-column: 5/6;
+        .team_a{
+            width: 150px;
+            grid-column: 3/4;
             display: block;
             margin: auto;
         }
-
-        .match_sector_a{
-            background-image: url('/assets/img/Fechas_content.jpg');
-            color: #ffffff;
-            background-position: -3cm 42cm;
-            background-size: 110%;
-        }
-        
-        .match_sector_b{
-            background-image: url('/assets/img/pexels-tembela-bohle-1884580.jpg');
-            color: #000000;
-            background-position: -1cm 75cm;
-            background-size: 108%;
+        .team_b{
+            width: 150px;
+            grid-column: 5/6;
+            display: block;
+            margin: auto;
         }
 
 
@@ -416,11 +451,11 @@ a:hover {
         }
 
         .galeria h1{
-            font-size: 30px;
+            text-transform: uppercase;
+            font-size: 100px;
+            letter-spacing: 1px;
         }
-        .galeria h2{
-            font-size: 40px;
-        }
+
         .galeria_container img{
             width: 100%;
             height: 100%;
