@@ -82,11 +82,11 @@ body{
 }
 
 .button-white{
-    color: #ffffff;
-    background-color: #64fe50;
+    color: var(--negro);
+    background-color: var(--verde);
 }.button-white:hover{
-    color: #64fe50;
-    background-color: #ffffff;
+    color: var(--verde);
+    background-color: #F4F6F6;
 }
 
 .button-black{
@@ -208,7 +208,7 @@ body{
 .logo{
     width: 200px;
     float: left;
-    margin-left: 20%;
+    margin-left: 15%;
 }
 
 .menu{
@@ -221,7 +221,7 @@ body{
 .menu a{
     margin-right: 2em;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 15px;
     color: #ffffff;
     font-family: Gotham-Medium;
     font-weight: 800;
@@ -324,7 +324,7 @@ a:hover {
             display: grid;
             grid-template-columns: 1fr 1fr;
             align-items: center;
-            padding: 10% 0%;
+            padding: 7% 0%;
             margin: 50px auto;
         }
         .about-us h1{
@@ -339,7 +339,7 @@ a:hover {
             grid-row: 1/3;
         }
         .about-us-content{
-            font-size: 18px;
+            font-size: 15px;
             text-align: justify;
             margin: 0 10%;
             line-height : 25px;
@@ -348,7 +348,7 @@ a:hover {
     /*Partidos*/
         .partidos{
             width: 100%;
-            padding: 10% 0%;
+            padding: 7% 0%;
             margin: 50px auto;
         }
         .partidos h1{
@@ -365,15 +365,25 @@ a:hover {
         .tabla-container{
             margin: 5% auto;
         }
+        
+        .Encabezado-tabla{
+            background-color: var(--azul)!important; 
+            color: #ffffff;
+            font-size: 20px;
+        }
 
         .tabla-posiciones{
             border: none !important;
             border-collapse:collapse;
-            width: 80%;
+            width: 60%;
             margin: auto;
         }.tabla-posiciones td{
             padding: 10px;
             border-bottom: solid 1px rgba(0, 0, 0, 0.068);
+        }.tabla-posiciones tr:nth-child(odd){
+            background-color: rgba(82, 82, 82, 0.144);
+        }.tabla-posiciones tr{
+            font-size: 12px;
         }.tabla-posiciones img{
             width: auto;
             height: auto;
@@ -381,11 +391,6 @@ a:hover {
             max-height: 2em;
         }
         
-        .Encabezado-tabla{
-            background-color: var(--azul);
-            color: #ffffff;
-            font-size: 20px;
-        }
 
         .equipo-tabla{
             display: flex;
@@ -421,17 +426,17 @@ a:hover {
             margin: auto;
             text-align: center;
             grid-column: 3/6;
-            font-size: 20px;
+            font-size: 15px;
             color: #000000;
         }
         .team_a{
-            width: 150px;
+            width: 100px;
             grid-column: 3/4;
             display: block;
             margin: auto;
         }
         .team_b{
-            width: 150px;
+            width: 100px;
             grid-column: 5/6;
             display: block;
             margin: auto;
@@ -441,19 +446,26 @@ a:hover {
     /*Galeria*/
         .galeria{
             width: 100%;
-            padding: 10% 0%;
+            padding: 7% 0%;
             margin: 50px auto;
         }
-        .galeria_container{
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 20px;
-        }
-
+        
         .galeria h1{
             text-transform: uppercase;
             font-size: 100px;
             letter-spacing: 1px;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: rgba(255, 255, 255, 0.521);
+            background-image: url(../img/About_us_content_img.jpeg);
+            text-align: center;
+        }
+        
+        .galeria_container{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            width: 60%;
+            margin: 2% auto;
         }
 
         .galeria_container img{
@@ -464,12 +476,13 @@ a:hover {
     /*Equipo*/
         .equipo{
             width: 100%;
-            padding: 10% 0%;
+            padding: 7% 0%;
             margin: 50px auto;
         }
-        .equipo h1 {
+        .equipo h1{
             text-transform: uppercase;
-            font-size: 60px;
+            font-size: 100px;
+            letter-spacing: 1px;
             -webkit-background-clip: text;
             -webkit-text-fill-color: rgba(75, 75, 75, 0.144);
             background-image: url(../img/Fechas_content.jpg);
@@ -479,9 +492,10 @@ a:hover {
         .container_equipo{
             display: grid;
             grid-template-columns: repeat(3,1fr);
-            margin: 20px;
+            width: 80%;
+            margin: 2% auto;
         }.container_equipo img{
-            width: 70%;
+            width: 60%;
             display: block;
             margin: auto;
         }.container_equipo p{
@@ -489,31 +503,115 @@ a:hover {
             width: 70%;
         }
 
-    /*Partidos*/
+    /*----------------------------------Partidos.html---------------------------------------*/
+
         .partidos-container {
-            width: 100%;
-            max-width: 1200px;
-            margin: auto;
-            margin-top: 130px;
-        }
-        .partido{
-            width: 100%;
-            align-items: center;
-            background-color: #000000;
-            color: #ffffff;
-            margin: 40px auto;
-            padding: 5% 0 5% 0;
-        }.partido p{
-            display: block;
-            margin: auto;
-            width: 30%;
-            text-align: justify;
-        }
-        .video{
-            display: block;
-            margin: 10px auto 10px auto;
+            margin: 200px auto;
+            max-width: 100%;
+            min-height: 80vh;
+        }.partidos-container h1{
+            text-transform: uppercase;
+            font-size: 100px;
+            letter-spacing: 1px;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: rgba(75, 75, 75, 0.144);
+            background-image: url(../img/Fechas_content.jpg);
+            text-align: center;
+            margin: 0 20%;
         }
 
+
+        .partido-section{
+            align-items: center;
+            color: var(--negro);
+            margin: 40px auto;
+            padding: 5% 0 5% 0;
+            width: 60%;
+        }
+
+        .tittle-video{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            height: 100%;
+            background-color: #051a6b;
+            border-radius: 14px 14px 0 0;
+            color: #F4F6F6;
+            min-height: 125px;
+            gap: 20px;
+        }
+
+        .team-tittle-video{
+            display: flex;
+            font-size: 50px;
+        }
+
+        .team-partido-A-img{
+            width: 150px;
+            display: block;
+            margin: auto;
+        }
+        .team-partido-B-img{
+            width: 150px;
+            display: block;
+            margin: auto;
+        }
+
+        .video-container{
+            background-color: rgba(82, 82, 82, 0.144);
+            display: flex;
+            justify-content: center;
+            padding: 5% 0;
+        }
+    /*----------------------------------en-vivo.html---------------------------------------*/
+        .live-partido-section{
+            align-items: center;
+            color: var(--negro);
+            margin: 80px auto auto auto;
+            padding: 5% 0 5% 0;
+            width: 60%;
+        }
+
+        .live-video-container{
+            background-color: rgba(82, 82, 82, 0.144);
+            display: flex;
+        }
+
+        .live-indication{
+            display: flex;
+            float: left;
+            margin: 2%;
+            position: absolute;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .live-video{
+            display: block;
+            margin: 5% auto;
+        }
+        
+        .recording-ball {
+            width: 25px;
+            height: 25px;
+            background-color: red;
+            border-radius: 50%;
+            animation: pulseBall 1.5s infinite;
+        }
+
+        @keyframes pulseBall {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.2);
+                opacity: 0.7;
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
   
 /*-----------------------------End Body code-----------------------------*/
 
