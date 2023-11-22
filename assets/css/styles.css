@@ -318,7 +318,7 @@ a:hover {
             background-color: var(--negro);
             color: #ffffff;
         }
-    /*Acerca de nosotros*/
+    /*------------------Acerca de nosotros------------------*/
         .about-us{
             width: 100%;
             display: grid;
@@ -345,7 +345,7 @@ a:hover {
             line-height : 25px;
             grid-column: 2/3;
         }
-    /*Partidos*/
+    /*------------------Partidos------------------*/
         .partidos{
             width: 100%;
             padding: 7% 0%;
@@ -391,7 +391,6 @@ a:hover {
             max-height: 2em;
         }
         
-
         .equipo-tabla{
             display: flex;
             margin: auto;
@@ -404,9 +403,8 @@ a:hover {
         }
 
         .match-container{
-            display: grid;
+            
             margin: 0 auto 1% auto;
-            grid-template-columns: repeat(7, 1fr);
             background-color: rgba(109, 109, 109, 0.438);
             width: 40%;
             border-radius: 2px;
@@ -414,36 +412,49 @@ a:hover {
             padding: 1% 0%;
         }
 
-        .match-container p{
+        .match-date{
+            width: 20%;
+            padding: 1%;
+            border-radius: 7px;
             display: block;
-            margin: auto;
+            margin: auto auto 3% auto;
             text-align: center;
-            grid-column: 4/5;
-            font-size: 20px;
-            color: #000000;
-        }.match-container h3{
-            display: block;
-            margin: auto;
-            text-align: center;
-            grid-column: 3/6;
             font-size: 15px;
+            color: #ffffff;
+            background-color: var(--negro);
+        }
+
+        .match-detail{
+            display: flex;
+            align-items: center;
+            width: 50%;
+            margin: auto;
+        }.match-detail p{
             color: #000000;
         }
-        .team_a{
-            width: 100px;
-            grid-column: 3/4;
-            display: block;
+
+        .team-a{
+            display: flex;
+            align-items: center;
             margin: auto;
+            color: #000000;
+            font-size: 30px;
+        }.team-a img{
+            width: 100px;
         }
-        .team_b{
-            width: 100px;
-            grid-column: 5/6;
-            display: block;
+
+        .team-b{
+            display: flex;
+            align-items: center;
             margin: auto;
+            color: #000000;
+            font-size: 30px;
+        }.team-b img{
+            width: 100px;
         }
 
 
-    /*Galeria*/
+    /*------------------Galeria------------------*/
         .galeria{
             width: 100%;
             padding: 7% 0%;
@@ -576,6 +587,7 @@ a:hover {
         .live-video-container{
             background-color: rgba(82, 82, 82, 0.144);
             display: flex;
+            min-height: 400px;
         }
 
         .live-indication{
@@ -611,6 +623,11 @@ a:hover {
             100% {
                 transform: scale(1);
             }
+        }
+
+        .not-live{
+            display: block;
+            margin: auto;
         }
   
 /*-----------------------------End Body code-----------------------------*/
