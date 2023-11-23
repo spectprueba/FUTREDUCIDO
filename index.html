@@ -67,7 +67,27 @@
 						<a href="#equipo"> Equipo</a>
 						<a class="facebook"  href="https://www.facebook.com/FutReducido/" target="_blank"></a>
 					</nav>
-                    <!--Make a menu bar for mobile-->
+                    
+                    
+                    <nav class="toggle" id="toggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </nav>
+    
+                    <div class="container-toggle-bar" id="container-toggle-bar">
+                        <div class="cont-toggle-bar" id="cont-toggle-bar">
+                            <nav class="OpenSans-Medium">
+                                <a href="#about-us"> Acerca de nosotros</a>
+                                <a href="#partidos"> Partidos</a>
+                                <a href="./en-vivo.html"> En vivo </a>
+                                <a href="#galeria"> Galeria</a>
+                                <a href="#equipo"> Equipo</a>
+                                <a href="https://www.facebook.com/FutReducido/" target="_blank">Facebook</a>
+                            </nav>
+                        </div>
+                    </div>
+
                 </div>
 			</div>
 			<script src="./assests/js/animated_header.js"></script>
@@ -237,15 +257,15 @@
                     <p class="center-text Montserrat-Medium">Galeria de fotos de FutReducido</p>
 					
 					<section class="galeria_container">
-						<a href="" class=""> <img src="./assets/img/Galeria 1.jpg" alt=""> </a>
-						<a href="" class=""> <img src="./assets/img/Galeria 2.jpg" alt=""> </a>
-						<a href="" class=""> <img src="./assets/img/Galeria 3.jpeg" alt=""> </a>
-						<a href="" class=""> <img src="./assets/img/Galeria 4.jpeg" alt=""> </a>
-						<a href="" class=""> <img src="./assets/img/Galeria 5.jpeg" alt=""> </a>
-						<a href="" class=""> <img src="./assets/img/Galeria 6.jpeg" alt=""> </a>
+						<a href="./galeria.html" class=""> <img src="./assets/img/Galeria 1.jpg" alt=""> </a>
+						<a href="./galeria.html" class=""> <img src="./assets/img/Galeria 2.jpg" alt=""> </a>
+						<a href="./galeria.html" class=""> <img src="./assets/img/Galeria 3.jpeg" alt=""> </a>
+						<a href="./galeria.html" class=""> <img src="./assets/img/Galeria 4.jpeg" alt=""> </a>
+						<a href="./galeria.html" class=""> <img src="./assets/img/Galeria 5.jpeg" alt=""> </a>
+						<a href="./galeria.html" class=""> <img src="./assets/img/Galeria 6.jpeg" alt=""> </a>
 					</section>
 
-					<a href="./proximamente.html" class="button-white button-center Gotham-Bold"> VER TODO </a>
+					<a href="./galeria.html" class="button-white button-center Gotham-Bold"> VER TODO </a>
 
 				</div>
 
@@ -257,25 +277,25 @@
                 <hr>
                 <p class="center-text Montserrat-Medium"> Conoce nuestro equipo </p>
 
-				<div class="container_equipo center-text OpenSans-Bold">
-					<img src="./assets/img/Team/01.jpg" alt="">
-					<img src="./assets/img/Team/02.jpg" alt="">
-					<img src="./assets/img/Team/03.jpg" alt="">
-
-					<div>
-						<h2>Nombre</h2>
+				<div class="container-equipo center-text OpenSans-Bold">
+                    
+                    <!-- <div class="equipo-element">
+                        <img src="./assets/img/Team/01.jpg" alt="">
+                        <h2>Nombre</h2>
 						<p class="Montserrat-Light">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus excepturi quos dicta rerum. At reprehenderit repellendus, culpa quasi reiciendis itaque modi dignissimos rerum esse cum quia dolore quibusdam ducimus necessitatibus?</p>
+					</div> -->
+                    
+					<div class="equipo-element">
+                        <img src="./assets/img/Team/02.jpg" alt="">
+						<h2>Carlos Santizo</h2>
+						<p class="Montserrat-Light">Director</p>
 					</div>
-
-					<div>
+                    
+					<!-- <div class="equipo-element">
+                        <img src="./assets/img/Team/03.jpg" alt="">
 						<h2>Nombre</h2>
 						<p class="Montserrat-Light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia exercitationem amet quaerat quod voluptatum voluptate aspernatur aliquid laborum odio, numquam magnam modi! Officia molestias excepturi corporis iure? Sunt, ex quis?</p>
-					</div>
-
-					<div>
-						<h2>Nombre</h2>
-						<p class="Montserrat-Light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia exercitationem amet quaerat quod voluptatum voluptate aspernatur aliquid laborum odio, numquam magnam modi! Officia molestias excepturi corporis iure? Sunt, ex quis?</p>
-					</div>
+					</div> -->
 
 				</div>
 
@@ -296,7 +316,7 @@
                 
                 <div class="footer-col">
                     <a href="./index.html">
-                        <img src="./assets/img/logos/logo FUT REDUCIDO.svg" alt="" class="logo center-img">
+                        <img src="./assets/img/logos/logo FUT REDUCIDO.svg" alt="" class="center-img">
                     </a>
                 </div>
                 
@@ -328,5 +348,6 @@
         <!--Scripts-->
         <script src="./assets/js/animations.js"></script>
         <script src="./assets/js/loader.js"></script>
+        <script src="./assets/js/menu-bars.js"></script>
     </body>
 </html>
