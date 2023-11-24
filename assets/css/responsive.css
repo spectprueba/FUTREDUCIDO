@@ -317,6 +317,13 @@
     .button-center {
         width: 30%;
         font-size: 10px;
+        padding: 10px 20px;
+    }
+    .galeria-container {
+        margin: 30% 5%;
+    }
+    .galeria-container h1 {
+        font-size: 50px;
     }
     .galeria h1 {
         font-size: 60px;

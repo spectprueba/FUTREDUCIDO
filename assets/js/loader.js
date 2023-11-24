@@ -1,7 +1,5 @@
 window.onload = function(){
-    var container = document.getElementById('loader_container');
-    //var loaderContainer = document.querySelector('.loader');
-
+    var container = document.getElementById('loader-container');
     var wholeDoc = document.querySelector('html');
     wholeDoc.style.overflowY = 'hidden';
 
